@@ -1,0 +1,18 @@
+{
+  "city": "北京",
+  "date": "2026-08-18",
+  "pollen_concentration": 200,
+  "level": "偏高",
+  "level_range": "101-300",
+  "main_allergens": ["蒿属", "藜科", "葎草"],
+  "other_cities": [
+    {"city": "鄂尔多斯", "province": "内蒙古", "concentration": 379, "level": "较高"},
+    {"city": "包头", "province": "内蒙古", "concentration": 360, "level": "较高"},
+    {"city": "呼和浩特", "province": "内蒙古", "concentration": 370, "level": "较高"},
+    {"city": "兴安盟", "province": "内蒙古", "concentration": 386, "level": "较高"}
+  ],
+  "advice": "敏感人群外出建议佩戴口罩，减少长时间户外停留",
+  "summary": "北京花粉浓度偏高，敏感人群需注意防护",
+  "source": "小红书@粉度App",
+  "pushed_at": "2026-08-19T08:24:00+08:00"
+}
