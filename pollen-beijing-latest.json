@@ -1,29 +1,55 @@
 {
   "city": "北京",
-  "date": "2026-08-19",
-  "pollen_concentration": 197,
-  "level": "极高",
-  "level_range": "100-300",
+  "date": "2026-08-20",
+  "pollen_concentration": 205,
+  "level": "偏高",
+  "level_range": "101-300",
   "main_allergens": [
     "蒿属",
     "藜科",
     "葎草"
   ],
-  "district_data": {
-    "朝阳区": 197,
-    "怀柔区": 131,
-    "密云区": 161,
-    "延庆区": 161
+  "forecast": {
+    "next_day_concentration": null,
+    "trend": null
   },
-  "other_cities": [
-    "呼市",
-    "兴安盟",
-    "张家口",
-    "长春"
-  ],
-  "advice": "花粉过敏或敏感人群建议佩戴口罩，减少长时间户外停留",
-  "summary": "北京花粉浓度持续偏高(197)，已达极高等级，敏感人群请加强防护",
-  "note": "2026-08-20 博主未更新北京数据，此为最新可用数据(8.19)",
-  "source": "小红书@粉度App",
-  "pushed_at": "2026-08-20T10:12:07.207032+08:00"
+  "other_cities": [],
+  "advice": "敏感人群外出佩戴口罩，减少长时间户外停留",
+  "summary": "北京花粉浓度偏高(205粒/kmm²)，敏感人群需注意防护",
+  "source": {
+    "blogger": "秦时明月",
+    "platform": "小红书",
+    "profile_url": "https://xhslink.cn/m/1ZhO7uQmEor",
+    "extraction_method": "正则"
+  },
+  "data_quality": {
+    "qinshi": {
+      "status": "OK",
+      "concentration": 205,
+      "issue": null,
+      "date": "8月20日",
+      "title": "北京花粉|8月20日浓度205敏感人群注意"
+    },
+    "fendu": {
+      "status": "OK",
+      "concentration": 197,
+      "issue": "VLM识别成功，日期为8.19(最新北京帖)",
+      "date": "8月19日",
+      "title": "【8.19】北京|花粉浓度持续偏高 注意防护!"
+    },
+    "tuxm": {
+      "status": "STALE",
+      "concentration": null,
+      "issue": "最新花粉帖为8.15，已过期",
+      "date": "8月15日",
+      "title": "蒿草浓度上升！8月15日花粉浓度"
+    }
+  },
+  "cross_validation": {
+    "p1_concentration": 205,
+    "p2_concentration": 197,
+    "difference": 8,
+    "result": "一致(差值<50)，质量高"
+  },
+  "pushed_at": "2026-08-20T10:41:37.119453+08:00"
 }
