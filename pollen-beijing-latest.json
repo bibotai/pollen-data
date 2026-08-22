@@ -1,9 +1,9 @@
 {
   "city": "北京",
-  "date": "2026-08-21",
-  "pollen_concentration": 82,
-  "level": "较低",
-  "level_range": "51-100",
+  "date": "2026-08-22",
+  "pollen_concentration": 50,
+  "level": "极低",
+  "level_range": "0-50",
   "main_allergens": [
     "蒿属",
     "藜科",
@@ -11,33 +11,33 @@
   ],
   "forecast": {
     "next_day_concentration": null,
-    "trend": null
+    "trend": "处于高峰期但当前浓度较低"
   },
   "other_cities": [],
-  "advice": "过敏体质者适当防护。回家后洗脸并清理外衣，减少花粉停留。",
-  "summary": "北京花粉浓度82粒/kmm²，较低水平，过敏体质者注意轻度防护。",
+  "advice": "可正常户外活动（多源数据显示差异，过敏体质者留意）",
+  "summary": "北京花粉浓度50粒/kmm²（极低），粉度App测得168偏高，多源数据存在差异",
   "source": {
-    "blogger": "粉度App",
+    "blogger": "秦时明月",
     "platform": "小红书",
-    "profile_url": "https://xhslink.cn/m/9Oaz0w1bcTb",
-    "extraction_method": "VLM"
+    "profile_url": "https://xhslink.cn/m/1ZhO7uQmEor",
+    "extraction_method": "正则"
   },
   "data_quality": {
     "qinshi": {
-      "status": "STALE",
-      "concentration": 205,
-      "issue": "最新帖子为8月20日数据，今日(8/21)尚未发布"
+      "status": "OK",
+      "concentration": 50,
+      "issue": null
     },
     "fendu": {
-      "status": "OK",
-      "concentration": 82,
-      "issue": null
+      "status": "WARN",
+      "concentration": 168,
+      "issue": "与P1差异118，多源差异"
     },
     "tuxm": {
       "status": "WARN",
       "concentration": null,
-      "issue": "使用粒/m³单位体系，仅提供蒿草分区域浓度，与主数据源单位不兼容"
+      "issue": "使用不同单位(粒/m³)，无法直接对比；海淀区54粒/m³"
     }
   },
-  "pushed_at": "2026-08-21T10:12:56.840590+08:00"
+  "pushed_at": "2026-08-22T10:13:05.272077+08:00"
 }
