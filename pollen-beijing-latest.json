@@ -1,7 +1,7 @@
 {
   "city": "北京",
-  "date": "2026-08-23",
-  "pollen_concentration": 221,
+  "date": "2026-08-24",
+  "pollen_concentration": 168,
   "level": "偏高",
   "level_range": "101-300",
   "main_allergens": [
@@ -11,11 +11,11 @@
   ],
   "forecast": {
     "next_day_concentration": null,
-    "trend": null
+    "trend": "即将进入高峰期"
   },
   "other_cities": [],
-  "advice": "敏感人群外出佩戴口罩",
-  "summary": "北京8月23日花粉浓度221粒/kmm²，等级偏高，蒿草季高峰期注意防护",
+  "advice": "敏感人群外出佩戴口罩，减少长时间户外停留",
+  "summary": "北京花粉浓度168，偏高，即将进入秋季花粉高峰期，敏感人群需注意防护",
   "source": {
     "blogger": "秦时明月",
     "platform": "小红书",
@@ -25,19 +25,19 @@
   "data_quality": {
     "qinshi": {
       "status": "OK",
-      "concentration": 221,
+      "concentration": 168,
       "issue": null
     },
     "fendu": {
       "status": "OK",
-      "concentration": 175,
+      "concentration": 156,
       "issue": null
     },
     "tuxm": {
       "status": "WARN",
-      "concentration": null,
-      "issue": "单位为粒/m³与P1/P2不兼容；最新帖为8月22日非今日"
+      "concentration": 51,
+      "issue": "单位为粒/m3，与其他源不一致，无法直接比较"
     }
   },
-  "pushed_at": "2026-08-23T10:13:46.605963+08:00"
+  "pushed_at": "2026-08-24T10:12:08.270492+08:00"
 }
