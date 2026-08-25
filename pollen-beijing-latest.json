@@ -1,7 +1,7 @@
 {
   "city": "北京",
-  "date": "2026-08-24",
-  "pollen_concentration": 168,
+  "date": "2026-08-25",
+  "pollen_concentration": 212,
   "level": "偏高",
   "level_range": "101-300",
   "main_allergens": [
@@ -11,33 +11,52 @@
   ],
   "forecast": {
     "next_day_concentration": null,
-    "trend": "即将进入高峰期"
+    "trend": "上升（昨日168→今日212）"
   },
-  "other_cities": [],
-  "advice": "敏感人群外出佩戴口罩，减少长时间户外停留",
-  "summary": "北京花粉浓度168，偏高，即将进入秋季花粉高峰期，敏感人群需注意防护",
+  "other_cities": [
+    {
+      "city": "内蒙多地",
+      "level": "高",
+      "concentration": null,
+      "source": "粉度App标题"
+    },
+    {
+      "city": "山西",
+      "level": "风险高",
+      "concentration": null,
+      "source": "粉度App标题"
+    },
+    {
+      "city": "河北",
+      "level": "风险高",
+      "concentration": null,
+      "source": "粉度App标题"
+    }
+  ],
+  "advice": "敏感人群外出佩戴口罩；外出后及时清洗鼻腔和暴露皮肤，睡前更换外衣。",
+  "summary": "今日北京花粉浓度212（偏高），较昨日168上升，蒿属为秋季主要致敏源，敏感人群加强防护。",
   "source": {
-    "blogger": "秦时明月",
+    "blogger": "粉度App",
     "platform": "小红书",
-    "profile_url": "https://xhslink.cn/m/1ZhO7uQmEor",
-    "extraction_method": "正则"
+    "profile_url": "https://xhslink.cn/m/9Oaz0w1bcTb",
+    "extraction_method": "VLM"
   },
   "data_quality": {
     "qinshi": {
       "status": "OK",
       "concentration": 168,
-      "issue": null
+      "issue": "最新秋季日报为8月24日(昨日)，8月25日帖[0]为春季走势图非日报"
     },
     "fendu": {
       "status": "OK",
-      "concentration": 156,
+      "concentration": 212,
       "issue": null
     },
     "tuxm": {
       "status": "WARN",
-      "concentration": 51,
-      "issue": "单位为粒/m3，与其他源不一致，无法直接比较"
+      "concentration": 37,
+      "issue": "单位为粒/m³(非粒/kmm²)，海淀区数据，与P1/P2不可直接比较"
     }
   },
-  "pushed_at": "2026-08-24T10:12:08.270492+08:00"
+  "pushed_at": "2026-08-25T10:12:02.806734+08:00"
 }
