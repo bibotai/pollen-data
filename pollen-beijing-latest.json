@@ -25,20 +25,10 @@
       "name": "西部豚草",
       "peak": 85.5,
       "level": "极高"
-    },
-    {
-      "name": "艾蒿",
-      "peak": 80.3,
-      "level": "极高"
-    },
-    {
-      "name": "三齿蒿",
-      "peak": 68.0,
-      "level": "极高"
     }
   ],
-  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
-  "summary": "北京花粉浓度极高(260.1粒/m³)",
+  "advice": "花粉浓度极高，致敏风险严重。三裂叶豚草等豚草属大量飘散，过敏人群应紧闭门窗、减少外出，外出务必佩戴N95口罩与护目镜，回家后立即更衣清洗并冲洗鼻腔。",
+  "summary": "北京今日花粉浓度极高(260粒/m³)，三裂叶豚草主导，过敏人群须严格防护。",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -47,10 +37,23 @@
   },
   "data_quality": {
     "pollencount": {
-      "status": "OK",
+      "status": "ok",
+      "level": "极高",
       "concentration": 260.1,
-      "issue": null
+      "quality": "高"
+    },
+    "qinshi": {
+      "status": "not_fetched",
+      "note": "P1成功，未启用"
+    },
+    "fendu": {
+      "status": "not_fetched",
+      "note": "P1成功，未启用"
+    },
+    "tuxm": {
+      "status": "not_fetched",
+      "note": "P1成功，未启用"
     }
   },
-  "pushed_at": "2026-08-27T09:30:24.693575+08:00"
+  "pushed_at": "2026-08-27T10:11:56+08:00"
 }
