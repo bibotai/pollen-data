@@ -1,6 +1,6 @@
 {
   "city": "西安",
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "pollen_concentration": 76.3,
   "concentration_unit": "粒/m³",
   "level": "很高",
@@ -52,5 +52,5 @@
       "issue": null
     }
   },
-  "pushed_at": "2026-08-27T08:35:10.475296+08:00"
+  "pushed_at": "2026-08-27T09:30:26.704370+08:00"
 }
