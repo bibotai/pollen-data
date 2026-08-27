@@ -1,0 +1,56 @@
+{
+  "city": "西安",
+  "date": "2026-08-26",
+  "pollen_concentration": 76.3,
+  "concentration_unit": "粒/m³",
+  "level": "很高",
+  "categories": {
+    "tree": "低",
+    "grass": "中",
+    "weed": "很高"
+  },
+  "active_species": 17,
+  "main_allergens": [
+    {
+      "name": "西部豚草",
+      "peak": 34.6,
+      "level": "很高"
+    },
+    {
+      "name": "艾蒿",
+      "peak": 20.6,
+      "level": "高"
+    },
+    {
+      "name": "三齿蒿",
+      "peak": 17.4,
+      "level": "高"
+    },
+    {
+      "name": "墙草",
+      "peak": 14.6,
+      "level": "中"
+    },
+    {
+      "name": "直立墙草",
+      "peak": 13.5,
+      "level": "中"
+    }
+  ],
+  "advice": "预计出现明显症状，中重度过敏者减少外出，关好门窗",
+  "summary": "西安花粉浓度很高(76.3粒/m³)",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/xian/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "OK",
+      "concentration": 76.3,
+      "issue": null
+    }
+  },
+  "pushed_at": "2026-08-27T08:35:10.475296+08:00"
+}
