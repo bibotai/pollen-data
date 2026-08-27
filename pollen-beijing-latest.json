@@ -1,57 +1,56 @@
 {
   "city": "北京",
   "date": "2026-08-26",
-  "pollen_concentration": 186,
-  "level": "偏高",
-  "level_range": "101-300",
-  "main_allergens": [
-    "蒿属",
-    "葎草",
-    "藜科",
-    "豚草"
-  ],
-  "forecast": {
-    "next_day_concentration": null,
-    "trend": null
+  "pollen_concentration": 185.5,
+  "concentration_unit": "粒/m³",
+  "level": "极高",
+  "categories": {
+    "tree": "低",
+    "grass": "中",
+    "weed": "极高"
   },
-  "other_cities": [
+  "active_species": 18,
+  "main_allergens": [
     {
-      "city": "包头",
+      "name": "三裂叶豚草",
+      "peak": 138.6,
       "level": "极高"
     },
     {
-      "city": "鄂尔多斯",
+      "name": "豚草",
+      "peak": 109.2,
       "level": "极高"
     },
     {
-      "city": "张家口",
+      "name": "西部豚草",
+      "peak": 54.1,
       "level": "极高"
+    },
+    {
+      "name": "艾蒿",
+      "peak": 50.8,
+      "level": "极高"
+    },
+    {
+      "name": "三齿蒿",
+      "peak": 43.0,
+      "level": "很高"
     }
   ],
-  "advice": "敏感人群外出佩戴口罩，减少长时间户外停留",
-  "summary": "8月26日北京花粉浓度186粒/kmm³，等级偏高，敏感人群外出需佩戴口罩",
+  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
+  "summary": "北京花粉浓度极高(185.5粒/m³)",
   "source": {
-    "blogger": "秦时明月",
-    "platform": "小红书",
-    "profile_url": "https://xhslink.cn/m/1ZhO7uQmEor",
-    "extraction_method": "正则"
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/beijing/",
+    "original_unit": "粒/m³"
   },
   "data_quality": {
-    "qinshi": {
+    "pollencount": {
       "status": "OK",
-      "concentration": 186,
+      "concentration": 185.5,
       "issue": null
-    },
-    "fendu": {
-      "status": "OK",
-      "concentration": null,
-      "issue": "标题无数值，等级偏高与P1一致"
-    },
-    "tuxm": {
-      "status": "STALE",
-      "concentration": null,
-      "issue": "无8月26日数值帖"
     }
   },
-  "pushed_at": "2026-08-26T22:51:45.333740+08:00"
+  "pushed_at": "2026-08-27T08:35:08.693231+08:00"
 }
