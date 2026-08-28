@@ -1,58 +1,57 @@
 {
   "city": "西安",
-  "date": "2026-08-27",
-  "pollen_concentration": 76.3,
+  "date": "2026-08-28",
+  "pollen_concentration": 723.0,
   "concentration_unit": "粒/m³",
-  "level": "很高",
+  "level": "极高",
   "categories": {
-    "tree": "低",
-    "grass": "中",
-    "weed": "很高"
+    "tree": "无",
+    "grass": "极高",
+    "weed": "极高"
   },
   "active_species": 17,
   "main_allergens": [
     {
-      "name": "西部豚草",
-      "peak": 34.6,
-      "level": "很高"
+      "name": "多年生豚草",
+      "peak": 128.9,
+      "level": "极高"
     },
     {
       "name": "艾蒿",
-      "peak": 20.6,
-      "level": "高"
+      "peak": 73.3,
+      "level": "极高"
     },
     {
       "name": "三齿蒿",
-      "peak": 17.4,
-      "level": "高"
+      "peak": 63.8,
+      "level": "极高"
+    },
+    {
+      "name": "墙草",
+      "peak": 52.7,
+      "level": "极高"
+    },
+    {
+      "name": "药用墙草",
+      "peak": 48.8,
+      "level": "很高"
     }
   ],
-  "advice": "花粉浓度很高，杂草类（豚草、蒿属）为致敏主力。过敏人群外出佩戴口罩、减少户外活动时间，室内建议使用空气净化器。",
-  "summary": "西安今日花粉浓度很高(76粒/m³)，西部豚草与蒿属主导，外出注意防护。",
+  "advice": "风险极高，过敏人群避免外出，紧闭门窗，开启空气净化器，外出务必佩戴N95口罩与护目镜，回家立即更衣洗鼻。",
+  "summary": "西安今日花粉浓度723粒/m³达极高，豚草与蒿类全面爆发，过敏人群需严格防护。",
   "source": {
     "name": "pollencount.org",
+    "platform": "网页API",
     "url": "https://pollencount.org/pollen/zh/china/xian/",
     "original_unit": "粒/m³"
   },
   "data_quality": {
     "pollencount": {
       "status": "ok",
-      "level": "很高",
-      "concentration": 76.3,
+      "concentration": 723.0,
+      "unit": "粒/m³",
       "quality": "高"
-    },
-    "qinshi": {
-      "status": "not_fetched",
-      "note": "P1成功，未启用"
-    },
-    "fendu": {
-      "status": "not_fetched",
-      "note": "P1成功，未启用"
-    },
-    "tuxm": {
-      "status": "not_fetched",
-      "note": "P1成功，未启用"
     }
   },
-  "pushed_at": "2026-08-27T10:11:56+08:00"
+  "pushed_at": "2026-08-28T02:14:54Z"
 }
