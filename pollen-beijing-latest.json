@@ -1,1 +1,61 @@
-{"city": "北京", "date": "2026-08-31", "pollen_concentration": 205.0, "concentration_unit": "粒/m³", "level": "极高", "categories": {"tree": "低", "grass": "高", "weed": "极高"}, "active_species": 18, "main_allergens": [{"name": "三裂叶豚草", "peak": 278.6, "level": "极高"}, {"name": "豚草", "peak": 215.3, "level": "极高"}, {"name": "西部豚草", "peak": 113.5, "level": "极高"}], "advice": "花粉浓度极高，花粉过敏人群建议全天关窗、开启空气净化器，外出务必佩戴N95口罩和护目镜，回家立即清洗。", "summary": "2026-08-31 北京花粉浓度205.0粒/m³（极高），主要致敏原为三裂叶豚草等杂草花粉，过敏人群请加强防护。", "source": {"name": "pollencount.org", "platform": "网页API", "url": "https://pollencount.org/pollen/zh/china/beijing/", "original_unit": "粒/m³"}, "data_quality": {"pollencount": {"status": "ok", "concentration": 205.0, "quality": "高"}, "qinshi": {"status": "unused"}, "fendu": {"status": "unused"}, "tuxm": {"status": "unused"}}, "pushed_at": "2026-08-31T10:11:38+08:00"}
+{
+  "city": "北京",
+  "date": "2026-09-01",
+  "pollen_concentration": 160.7,
+  "concentration_unit": "粒/m³",
+  "level": "极高",
+  "categories": {
+    "tree": "低",
+    "grass": "高",
+    "weed": "极高"
+  },
+  "active_species": 18,
+  "main_allergens": [
+    {
+      "name": "三裂叶豚草",
+      "peak": 90.4,
+      "level": "极高"
+    },
+    {
+      "name": "豚草",
+      "peak": 69.6,
+      "level": "极高"
+    },
+    {
+      "name": "西部豚草",
+      "peak": 37.2,
+      "level": "很高"
+    }
+  ],
+  "advice": "极高花粉浓度，过敏人群应尽量避免户外活动，关闭门窗，佩戴口罩和护目镜，回家后及时清洗鼻腔和更换衣物。",
+  "summary": "北京今日花粉浓度极高，以豚草属和蒿属杂草为主，杂草类花粉达极高等级，过敏人群需高度警惕。",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/beijing/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "✅",
+      "concentration": 160.7,
+      "quality": "高"
+    },
+    "qinshi": {
+      "status": "N/A",
+      "concentration": null,
+      "quality": "N/A"
+    },
+    "fendu": {
+      "status": "N/A",
+      "concentration": null,
+      "quality": "N/A"
+    },
+    "tuxm": {
+      "status": "N/A",
+      "concentration": null,
+      "quality": "N/A"
+    }
+  },
+  "pushed_at": "2026-09-01T02:13:41.587873+00:00"
+}
