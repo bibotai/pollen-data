@@ -1,1 +1,61 @@
-{"city": "北京", "date": "2026-09-02", "pollen_concentration": 166.6, "concentration_unit": "粒/m³", "level": "极高", "categories": {"tree": "低", "grass": "高", "weed": "极高"}, "active_species": 18, "main_allergens": [{"name": "三裂叶豚草", "peak": 122.1, "level": "极高"}, {"name": "豚草", "peak": 93.6, "level": "极高"}, {"name": "西部豚草", "peak": 50.6, "level": "极高"}, {"name": "艾蒿", "peak": 36.6, "level": "很高"}, {"name": "三齿蒿", "peak": 31.0, "level": "很高"}], "advice": "花粉浓度极高，豚草属(三裂叶豚草/豚草/西部豚草)为主，建议全天关闭门窗，外出佩戴N95口罩和护目镜，回家后清洗鼻腔与更换衣物，过敏人群减少户外活动并按时用药。", "summary": "北京花粉极高，三裂叶豚草主导，豚草属全面爆发，过敏人群需全天防护。", "source": {"name": "pollencount.org", "platform": "网页API", "url": "https://pollencount.org/pollen/zh/china/beijing/", "original_unit": "粒/m³"}, "data_quality": {"pollencount": {"status": "ok", "value": 166.6, "quality": "高"}, "qinshi": {"status": "unused", "value": null, "quality": null}, "fendu": {"status": "unused", "value": null, "quality": null}, "tuxm": {"status": "unused", "value": null, "quality": null}}, "pushed_at": "2026-09-02T10:13:08+08:00"}
+{
+  "city": "北京",
+  "date": "2026-09-03",
+  "pollen_concentration": 130.0,
+  "concentration_unit": "粒/m³",
+  "level": "极高",
+  "categories": {
+    "tree": "低",
+    "grass": "中",
+    "weed": "极高"
+  },
+  "active_species": 18,
+  "main_allergens": [
+    {
+      "name": "三裂叶豚草",
+      "peak": 73.8,
+      "level": "极高"
+    },
+    {
+      "name": "豚草",
+      "peak": 56.4,
+      "level": "极高"
+    },
+    {
+      "name": "西部豚草",
+      "peak": 30.8,
+      "level": "很高"
+    }
+  ],
+  "advice": "花粉浓度极高，过敏性鼻炎及哮喘患者应避免户外活动，外出务必佩戴N95口罩和护目镜，回家后立即更换衣物并洗澡。关好门窗，使用空气净化器。",
+  "summary": "北京今日花粉浓度极高，三裂叶豚草和豚草为主要致敏源，杂草花粉达到极高等级，过敏人群需严加防范。",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/beijing/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "✅",
+      "concentration": 130.0,
+      "quality": "高"
+    },
+    "qinshi": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低"
+    },
+    "fendu": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低"
+    },
+    "tuxm": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低"
+    }
+  },
+  "pushed_at": "2026-09-03T02:12:13.346210+00:00"
+}
