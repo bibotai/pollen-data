@@ -1,1 +1,57 @@
-{"city": "北京", "date": "2026-09-04", "pollen_concentration": 156.7, "concentration_unit": "粒/m³", "level": "极高", "categories": {"tree": "低", "grass": "高", "weed": "极高"}, "active_species": 18, "main_allergens": [{"name": "三裂叶豚草", "peak": 96.6, "level": "极高"}, {"name": "豚草", "peak": 73.6, "level": "极高"}, {"name": "西部豚草", "peak": 40.7, "level": "很高"}], "advice": "花粉浓度极高，过敏人群请避免户外活动，外出佩戴N95口罩，回家后冲洗鼻腔、更换衣物；关闭门窗并使用空气净化器。", "summary": "北京今日花粉浓度极高(156.7粒/m³)，豚草类杂草花粉为主，过敏人群尽量减少外出。", "source": {"name": "pollencount.org", "platform": "网页API", "url": "https://pollencount.org/pollen/zh/china/beijing/", "original_unit": "粒/m³"}, "data_quality": {"pollencount": {"status": "ok", "concentration": 156.7, "quality": "高"}, "qinshi": {"status": "not_used"}, "fendu": {"status": "not_used"}, "tuxm": {"status": "not_used"}}, "pushed_at": "2026-09-04T10:11:35.050290+08:00"}
+{
+  "city": "北京",
+  "date": "2026-09-05",
+  "pollen_concentration": 165.2,
+  "concentration_unit": "粒/m³",
+  "level": "极高",
+  "categories": {
+    "tree": "低",
+    "grass": "中",
+    "weed": "极高"
+  },
+  "active_species": 18,
+  "main_allergens": [
+    {
+      "name": "三裂叶豚草",
+      "peak": 147.9,
+      "level": "极高"
+    },
+    {
+      "name": "豚草",
+      "peak": 104.2,
+      "level": "极高"
+    },
+    {
+      "name": "西部豚草",
+      "peak": 62.7,
+      "level": "极高"
+    }
+  ],
+  "advice": "避免不必要外出，外出必须佩戴 N95/KN95 口罩+护目镜，回家立即洗脸洗鼻、换洗衣物；关闭门窗，开启空气净化器；过敏人群考虑提前用药。",
+  "summary": "北京今日花粉浓度 165.2 粒/m³，等级极高，豚草属（三裂叶豚草、豚草、西部豚草）为绝对主力，过敏人群务必严格防护。",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/beijing/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "ok",
+      "level": "极高",
+      "concentration": 165.2,
+      "quality": "高",
+      "data_generated": "2026-09-04"
+    },
+    "qinshi": {
+      "status": "not_used"
+    },
+    "fendu": {
+      "status": "not_used"
+    },
+    "tuxm": {
+      "status": "not_used"
+    }
+  },
+  "pushed_at": "2026-09-05T02:22:32.949798+00:00"
+}
