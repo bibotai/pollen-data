@@ -1,1 +1,57 @@
-{"city": "西安", "date": "2026-09-04", "pollen_concentration": 135.6, "concentration_unit": "粒/m³", "level": "极高", "categories": {"tree": "低", "grass": "中", "weed": "极高"}, "active_species": 17, "main_allergens": [{"name": "西部豚草", "peak": 88.7, "level": "极高"}, {"name": "艾蒿", "peak": 42.5, "level": "很高"}, {"name": "三齿蒿", "peak": 36.6, "level": "很高"}], "advice": "花粉浓度极高，过敏人群请避免户外活动，外出佩戴N95口罩，回家后冲洗鼻腔、更换衣物；关闭门窗并使用空气净化器。", "summary": "西安今日花粉浓度极高(135.6粒/m³)，豚草与蒿属花粉为主，过敏人群需加强防护。", "source": {"name": "pollencount.org", "platform": "网页API", "url": "https://pollencount.org/pollen/zh/china/xian/", "original_unit": "粒/m³"}, "data_quality": {"pollencount": {"status": "ok", "concentration": 135.6, "quality": "高"}, "qinshi": {"status": "not_used"}, "fendu": {"status": "not_used"}, "tuxm": {"status": "not_used"}}, "pushed_at": "2026-09-04T10:11:35.050290+08:00"}
+{
+  "city": "西安",
+  "date": "2026-09-05",
+  "pollen_concentration": 155.2,
+  "concentration_unit": "粒/m³",
+  "level": "极高",
+  "categories": {
+    "tree": "低",
+    "grass": "中",
+    "weed": "极高"
+  },
+  "active_species": 17,
+  "main_allergens": [
+    {
+      "name": "西部豚草",
+      "peak": 91.0,
+      "level": "极高"
+    },
+    {
+      "name": "艾蒿",
+      "peak": 42.1,
+      "level": "很高"
+    },
+    {
+      "name": "三齿蒿",
+      "peak": 37.1,
+      "level": "很高"
+    }
+  ],
+  "advice": "避免不必要外出，外出必须佩戴 N95/KN95 口罩+护目镜，回家立即洗脸洗鼻、换洗衣物；关闭门窗，开启空气净化器；过敏人群考虑提前用药。",
+  "summary": "西安今日花粉浓度 155.2 粒/m³，等级极高，以西部豚草、艾蒿等杂草花粉为主，敏感人群减少外出。",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/xian/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "ok",
+      "level": "极高",
+      "concentration": 155.2,
+      "quality": "高",
+      "data_generated": "2026-09-04"
+    },
+    "qinshi": {
+      "status": "not_used"
+    },
+    "fendu": {
+      "status": "not_used"
+    },
+    "tuxm": {
+      "status": "not_used"
+    }
+  },
+  "pushed_at": "2026-09-05T02:22:51.077619+00:00"
+}
