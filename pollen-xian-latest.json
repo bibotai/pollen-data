@@ -1,1 +1,65 @@
-{"city": "西安", "date": "2026-09-09", "pollen_concentration": 31.1, "concentration_unit": "粒/m³", "level": "高", "categories": {"tree": "低", "grass": "低", "weed": "高"}, "active_species": 17, "main_allergens": [{"name": "西部豚草", "peak": 29.5, "level": "高"}, {"name": "艾蒿", "peak": 17.6, "level": "高"}, {"name": "三齿蒿", "peak": 15.1, "level": "高"}], "advice": "浓度偏高，蒿属及豚草花粉为主。敏感人群午后减少外出，外出佩戴口罩，室内关窗并使用空气净化器。", "summary": "西安花粉浓度偏高（31.1粒/m³），以西部豚草和蒿属花粉为主。", "source": {"name": "pollencount.org", "platform": "网页API", "url": "https://pollencount.org/pollen/zh/china/xian/", "original_unit": "粒/m³"}, "data_quality": {"pollencount": {"status": "ok", "concentration": 31.1, "unit": "粒/m³", "quality": "高", "note": "API重试后成功，数据生成日期2026-09-08"}, "qinshi": {"status": "not_used", "concentration": null, "unit": "粒/kmm²", "quality": null, "note": "P1成功，未启用回落源"}, "fendu": {"status": "not_used", "concentration": null, "unit": "粒/kmm²", "quality": null, "note": "P1成功，未启用回落源"}, "tuxm": {"status": "not_used", "concentration": null, "unit": "粒/kmm²", "quality": null, "note": "P1成功，未启用回落源"}}, "pushed_at": "2026-09-09T10:16:14+08:00"}
+{
+  "city": "西安",
+  "date": "2026-09-10",
+  "pollen_concentration": 40.5,
+  "concentration_unit": "粒/m³",
+  "level": "高",
+  "categories": {
+    "tree": "低",
+    "grass": "中",
+    "weed": "高"
+  },
+  "active_species": 17,
+  "main_allergens": [
+    {
+      "name": "西部豚草",
+      "peak": 26.1,
+      "level": "高"
+    },
+    {
+      "name": "艾蒿",
+      "peak": 16.9,
+      "level": "高"
+    },
+    {
+      "name": "三齿蒿",
+      "peak": 14.3,
+      "level": "中"
+    }
+  ],
+  "advice": "花粉浓度较高，敏感人群减少户外活动，外出佩戴口罩，避免在草地草丛长时间停留。",
+  "summary": "西安花粉浓度较高，杂草类（西部豚草/艾蒿/三齿蒿）为主要致敏源，建议敏感人群适当防护。",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/xian/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "✅",
+      "concentration": 40.5,
+      "quality": "高",
+      "note": "API成功返回，预测日期2026-09-02"
+    },
+    "qinshimingyue": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低",
+      "note": "未使用（P1成功）"
+    },
+    "fendu": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低",
+      "note": "未使用（P1成功）"
+    },
+    "tuxiaomin": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低",
+      "note": "未使用（P1成功）"
+    }
+  },
+  "pushed_at": "2026-09-10T02:12:40Z"
+}
