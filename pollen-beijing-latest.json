@@ -1,1 +1,65 @@
-{"city": "北京", "date": "2026-09-09", "pollen_concentration": 178.8, "concentration_unit": "粒/m³", "level": "极高", "categories": {"tree": "低", "grass": "高", "weed": "极高"}, "active_species": 18, "main_allergens": [{"name": "三裂叶豚草", "peak": 243.3, "level": "极高"}, {"name": "豚草", "peak": 117.3, "level": "极高"}, {"name": "西部豚草", "peak": 105.6, "level": "极高"}], "advice": "极高浓度，豚草花粉爆发期。敏感人群全天减少户外活动，外出佩戴N95口罩+护目镜，回家后及时洗脸、冲洗鼻腔、更换外衣；关闭门窗使用空气净化器。", "summary": "北京花粉浓度极高（178.8粒/m³），豚草类花粉爆发，敏感人群需严加防护。", "source": {"name": "pollencount.org", "platform": "网页API", "url": "https://pollencount.org/pollen/zh/china/beijing/", "original_unit": "粒/m³"}, "data_quality": {"pollencount": {"status": "ok", "concentration": 178.8, "unit": "粒/m³", "quality": "高", "note": "API直接获取，两次运行结果一致"}, "qinshi": {"status": "not_used", "concentration": null, "unit": "粒/kmm²", "quality": null, "note": "P1成功，未启用回落源"}, "fendu": {"status": "not_used", "concentration": null, "unit": "粒/kmm²", "quality": null, "note": "P1成功，未启用回落源"}, "tuxm": {"status": "not_used", "concentration": null, "unit": "粒/kmm²", "quality": null, "note": "P1成功，未启用回落源"}}, "pushed_at": "2026-09-09T10:16:14+08:00"}
+{
+  "city": "北京",
+  "date": "2026-09-10",
+  "pollen_concentration": 149.4,
+  "concentration_unit": "粒/m³",
+  "level": "极高",
+  "categories": {
+    "tree": "低",
+    "grass": "高",
+    "weed": "极高"
+  },
+  "active_species": 18,
+  "main_allergens": [
+    {
+      "name": "三裂叶豚草",
+      "peak": 130.0,
+      "level": "极高"
+    },
+    {
+      "name": "西部豚草",
+      "peak": 56.7,
+      "level": "极高"
+    },
+    {
+      "name": "豚草",
+      "peak": 55.6,
+      "level": "极高"
+    }
+  ],
+  "advice": "花粉浓度极高，敏感人群应避免户外活动，外出佩戴N95口罩和护目镜，回家后更换衣物并清洗鼻腔，关闭门窗使用空气净化器。",
+  "summary": "北京花粉浓度极高，豚草属（三裂叶豚草/西部豚草/豚草）为主要致敏源，杂草类处于极高等级，敏感人群需严格防护。",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/beijing/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "✅",
+      "concentration": 149.4,
+      "quality": "高",
+      "note": "API成功返回，预测日期2026-09-04"
+    },
+    "qinshimingyue": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低",
+      "note": "未使用（P1成功）"
+    },
+    "fendu": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低",
+      "note": "未使用（P1成功）"
+    },
+    "tuxiaomin": {
+      "status": "❌",
+      "concentration": null,
+      "quality": "低",
+      "note": "未使用（P1成功）"
+    }
+  },
+  "pushed_at": "2026-09-10T02:12:40Z"
+}
