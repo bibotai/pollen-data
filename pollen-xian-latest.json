@@ -1,34 +1,44 @@
 {
   "city": "西安",
-  "date": "2026-09-10",
-  "pollen_concentration": 40.5,
+  "date": "2026-09-11",
+  "pollen_concentration": 227.7,
   "concentration_unit": "粒/m³",
-  "level": "高",
+  "level": "极高",
   "categories": {
     "tree": "低",
-    "grass": "中",
-    "weed": "高"
+    "grass": "很高",
+    "weed": "极高"
   },
   "active_species": 17,
   "main_allergens": [
     {
       "name": "西部豚草",
-      "peak": 26.1,
+      "peak": 68.7,
+      "level": "极高"
+    },
+    {
+      "name": "禾草(混合)",
+      "peak": 68.7,
+      "level": "很高"
+    },
+    {
+      "name": "鸭茅",
+      "peak": 60.7,
+      "level": "很高"
+    },
+    {
+      "name": "多年生黑麦草",
+      "peak": 57.9,
       "level": "高"
     },
     {
       "name": "艾蒿",
-      "peak": 16.9,
-      "level": "高"
-    },
-    {
-      "name": "三齿蒿",
-      "peak": 14.3,
-      "level": "中"
+      "peak": 49.2,
+      "level": "很高"
     }
   ],
-  "advice": "花粉浓度较高，敏感人群减少户外活动，外出佩戴口罩，避免在草地草丛长时间停留。",
-  "summary": "西安花粉浓度较高，杂草类（西部豚草/艾蒿/三齿蒿）为主要致敏源，建议敏感人群适当防护。",
+  "advice": "花粉浓度极高，易敏人群尽量避免外出，室内使用空气净化器，外出需全副防护。",
+  "summary": "西安今日花粉总浓度227.7粒/m³，等级极高，西部豚草和禾草共同主导。",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -38,28 +48,29 @@
   "data_quality": {
     "pollencount": {
       "status": "✅",
-      "concentration": 40.5,
+      "concentration": 227.7,
       "quality": "高",
-      "note": "API成功返回，预测日期2026-09-02"
+      "date": "2026-09-10",
+      "note": "API返回96h预报，覆盖今天"
     },
-    "qinshimingyue": {
-      "status": "❌",
+    "qinshi": {
+      "status": "N/A",
       "concentration": null,
-      "quality": "低",
-      "note": "未使用（P1成功）"
+      "quality": "N/A",
+      "note": "P1成功，未回落"
     },
     "fendu": {
-      "status": "❌",
+      "status": "N/A",
       "concentration": null,
-      "quality": "低",
-      "note": "未使用（P1成功）"
+      "quality": "N/A",
+      "note": "P1成功，未回落"
     },
-    "tuxiaomin": {
-      "status": "❌",
+    "tuxm": {
+      "status": "N/A",
       "concentration": null,
-      "quality": "低",
-      "note": "未使用（P1成功）"
+      "quality": "N/A",
+      "note": "P1成功，未回落"
     }
   },
-  "pushed_at": "2026-09-10T02:12:40Z"
+  "pushed_at": "2026-09-11T10:12:08.335708+08:00"
 }
