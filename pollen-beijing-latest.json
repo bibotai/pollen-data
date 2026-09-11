@@ -1,7 +1,7 @@
 {
   "city": "北京",
-  "date": "2026-09-10",
-  "pollen_concentration": 149.4,
+  "date": "2026-09-11",
+  "pollen_concentration": 179.9,
   "concentration_unit": "粒/m³",
   "level": "极高",
   "categories": {
@@ -13,22 +13,32 @@
   "main_allergens": [
     {
       "name": "三裂叶豚草",
-      "peak": 130.0,
+      "peak": 221.7,
       "level": "极高"
     },
     {
       "name": "西部豚草",
-      "peak": 56.7,
+      "peak": 97.2,
       "level": "极高"
     },
     {
       "name": "豚草",
-      "peak": 55.6,
+      "peak": 81.6,
       "level": "极高"
+    },
+    {
+      "name": "艾蒿",
+      "peak": 51.9,
+      "level": "极高"
+    },
+    {
+      "name": "三齿蒿",
+      "peak": 44.0,
+      "level": "很高"
     }
   ],
-  "advice": "花粉浓度极高，敏感人群应避免户外活动，外出佩戴N95口罩和护目镜，回家后更换衣物并清洗鼻腔，关闭门窗使用空气净化器。",
-  "summary": "北京花粉浓度极高，豚草属（三裂叶豚草/西部豚草/豚草）为主要致敏源，杂草类处于极高等级，敏感人群需严格防护。",
+  "advice": "花粉浓度极高，易敏人群尽量避免外出，室内使用空气净化器，外出需全副防护。",
+  "summary": "北京今日花粉总浓度179.9粒/m³，等级极高，以三裂叶豚草（221.7粒/m³）为主的秋季杂草进入峰值期。",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -38,28 +48,29 @@
   "data_quality": {
     "pollencount": {
       "status": "✅",
-      "concentration": 149.4,
+      "concentration": 179.9,
       "quality": "高",
-      "note": "API成功返回，预测日期2026-09-04"
+      "date": "2026-09-10",
+      "note": "API返回96h预报，覆盖今天"
     },
-    "qinshimingyue": {
-      "status": "❌",
+    "qinshi": {
+      "status": "N/A",
       "concentration": null,
-      "quality": "低",
-      "note": "未使用（P1成功）"
+      "quality": "N/A",
+      "note": "P1成功，未回落"
     },
     "fendu": {
-      "status": "❌",
+      "status": "N/A",
       "concentration": null,
-      "quality": "低",
-      "note": "未使用（P1成功）"
+      "quality": "N/A",
+      "note": "P1成功，未回落"
     },
-    "tuxiaomin": {
-      "status": "❌",
+    "tuxm": {
+      "status": "N/A",
       "concentration": null,
-      "quality": "低",
-      "note": "未使用（P1成功）"
+      "quality": "N/A",
+      "note": "P1成功，未回落"
     }
   },
-  "pushed_at": "2026-09-10T02:12:40Z"
+  "pushed_at": "2026-09-11T10:12:08.335708+08:00"
 }
