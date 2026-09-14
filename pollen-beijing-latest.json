@@ -1,7 +1,7 @@
 {
   "city": "北京",
-  "date": "2026-09-13",
-  "pollen_concentration": 147.3,
+  "date": "2026-09-14",
+  "pollen_concentration": 136.6,
   "concentration_unit": "粒/m³",
   "level": "极高",
   "categories": {
@@ -13,32 +13,22 @@
   "main_allergens": [
     {
       "name": "三裂叶豚草",
-      "peak": 82.0,
+      "peak": 178.2,
       "level": "极高"
     },
     {
       "name": "西部豚草",
-      "peak": 42.3,
-      "level": "很高"
-    },
-    {
-      "name": "豚草",
-      "peak": 24.0,
-      "level": "高"
+      "peak": 100.9,
+      "level": "极高"
     },
     {
       "name": "艾蒿",
-      "peak": 21.3,
-      "level": "高"
-    },
-    {
-      "name": "禾草(混合)",
-      "peak": 20.7,
-      "level": "高"
+      "peak": 49.6,
+      "level": "很高"
     }
   ],
-  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
-  "summary": "北京花粉浓度极高(147.3粒/m³)",
+  "advice": "花粉浓度极高：过敏人群尽量取消户外活动，外出务必佩戴N95/KN95口罩和护目镜；回家后立即洗脸、洗鼻、更换外衣；紧闭门窗并开启空气净化器，避免晾晒衣物。",
+  "summary": "北京今日花粉浓度极高，豚草属与蒿属杂草花粉齐爆发，过敏人群需全天严加防护。",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -47,10 +37,22 @@
   },
   "data_quality": {
     "pollencount": {
-      "status": "OK",
-      "concentration": 147.3,
-      "issue": null
+      "status": "ok",
+      "concentration": 136.6,
+      "quality": "高"
+    },
+    "qinshi": {
+      "status": "not_used",
+      "quality": "高"
+    },
+    "fendu": {
+      "status": "not_used",
+      "quality": "高"
+    },
+    "tuxm": {
+      "status": "not_used",
+      "quality": "高"
     }
   },
-  "pushed_at": "2026-09-13T10:11:12.831246+08:00"
+  "pushed_at": "2026-09-14T02:12:01+08:00"
 }
