@@ -1,24 +1,24 @@
 {
   "city": "西安",
-  "date": "2026-09-28",
-  "pollen_concentration": 58.1,
+  "date": "2026-09-29",
+  "pollen_concentration": 73.8,
   "concentration_unit": "粒/m³",
-  "level": "很高",
+  "level": "高",
   "categories": {
     "tree": "低",
     "grass": "中",
-    "weed": "很高"
+    "weed": "高"
   },
   "active_species": 16,
   "main_allergens": [
     {
       "name": "艾蒿",
-      "peak": 30.3,
-      "level": "很高"
+      "peak": 29.9,
+      "level": "高"
     },
     {
       "name": "三齿蒿",
-      "peak": 25.5,
+      "peak": 25.9,
       "level": "高"
     },
     {
@@ -37,8 +37,8 @@
       "level": "高"
     }
   ],
-  "advice": "预计出现明显症状，中重度过敏者减少外出，关好门窗",
-  "summary": "西安花粉浓度很高(58.1粒/m³)",
+  "advice": "可能出现广泛症状，敏感人群外出佩戴口罩，减少户外停留",
+  "summary": "西安花粉浓度高(73.8粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,9 +48,9 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 58.1,
+      "concentration": 73.8,
       "issue": null
     }
   },
-  "pushed_at": "2026-09-28T10:11:36.694601+08:00"
+  "pushed_at": "2026-09-29T10:12:59.946309+08:00"
 }
