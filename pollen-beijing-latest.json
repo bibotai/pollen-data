@@ -1,44 +1,44 @@
 {
   "city": "北京",
-  "date": "2026-09-29",
-  "pollen_concentration": 67.4,
+  "date": "2026-09-30",
+  "pollen_concentration": 71.2,
   "concentration_unit": "粒/m³",
-  "level": "高",
+  "level": "极高",
   "categories": {
     "tree": "低",
     "grass": "中",
-    "weed": "高"
+    "weed": "极高"
   },
   "active_species": 16,
   "main_allergens": [
     {
       "name": "艾蒿",
-      "peak": 23.9,
-      "level": "高"
-    },
-    {
-      "name": "西部豚草",
-      "peak": 20.9,
-      "level": "高"
+      "peak": 58.4,
+      "level": "极高"
     },
     {
       "name": "三齿蒿",
-      "peak": 20.2,
-      "level": "高"
+      "peak": 49.4,
+      "level": "很高"
+    },
+    {
+      "name": "西部豚草",
+      "peak": 40.9,
+      "level": "很高"
     },
     {
       "name": "墙草",
-      "peak": 14.8,
-      "level": "中"
+      "peak": 36.1,
+      "level": "很高"
     },
     {
-      "name": "禾草(混合)",
-      "peak": 14.2,
-      "level": "中"
+      "name": "直立墙草",
+      "peak": 33.4,
+      "level": "很高"
     }
   ],
-  "advice": "可能出现广泛症状，敏感人群外出佩戴口罩，减少户外停留",
-  "summary": "北京花粉浓度高(67.4粒/m³)",
+  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
+  "summary": "北京花粉浓度极高(71.2粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,9 +48,9 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 67.4,
+      "concentration": 71.2,
       "issue": null
     }
   },
-  "pushed_at": "2026-09-29T10:11:25.242959+08:00"
+  "pushed_at": "2026-09-30T10:11:48.181315+08:00"
 }
