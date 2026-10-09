@@ -1,1 +1,66 @@
-{"city": "北京", "date": "2026-10-08", "pollen_concentration": 107.3, "concentration_unit": "粒/m³", "level": "高", "categories": {"tree": "低", "grass": "高", "weed": "高"}, "active_species": 15, "main_allergens": [{"name": "艾蒿", "peak": 25.2, "level": "高"}, {"name": "禾草(混合)", "peak": 25.0, "level": "高"}, {"name": "多年生黑麦草", "peak": 24.2, "level": "高"}], "advice": "花粉浓度较高：敏感人群外出佩戴口罩，减少10-16时户外活动，回家后清洗面部鼻腔，室内使用空气净化器。", "summary": "北京今日花粉浓度107.3粒/m³（高），以艾蒿、禾草类为主，敏感人群建议减少户外活动。", "source": {"name": "pollencount.org", "platform": "网页API", "url": "https://pollencount.org/pollen/zh/china/beijing/", "original_unit": "粒/m³"}, "data_quality": {"pollencount": {"status": "ok", "concentration": 107.3, "quality": "高"}, "qinshi": {"status": "na"}, "fendu": {"status": "na"}, "tuxm": {"status": "na"}}, "pushed_at": "2026-10-08T10:12:21+08:00"}
+{
+  "city": "北京",
+  "date": "2026-10-09",
+  "pollen_concentration": 124.6,
+  "concentration_unit": "粒/m³",
+  "level": "极高",
+  "categories": {
+    "tree": "低",
+    "grass": "高",
+    "weed": "极高"
+  },
+  "active_species": 15,
+  "main_allergens": [
+    {
+      "name": "艾蒿",
+      "peak": 80.3,
+      "level": "极高"
+    },
+    {
+      "name": "三齿蒿",
+      "peak": 68.0,
+      "level": "极高"
+    },
+    {
+      "name": "墙草",
+      "peak": 49.7,
+      "level": "很高"
+    },
+    {
+      "name": "直立墙草",
+      "peak": 46.0,
+      "level": "很高"
+    },
+    {
+      "name": "异株荨麻",
+      "peak": 40.3,
+      "level": "很高"
+    }
+  ],
+  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
+  "summary": "北京今日花粉浓度124.6粒/m³（极高），以艾蒿、三齿蒿等蒿属杂草为主，敏感人群避免户外活动。",
+  "source": {
+    "name": "pollencount.org",
+    "platform": "网页API",
+    "url": "https://pollencount.org/pollen/zh/china/beijing/",
+    "original_unit": "粒/m³"
+  },
+  "data_quality": {
+    "pollencount": {
+      "status": "OK",
+      "concentration": 124.6,
+      "quality": "高",
+      "note": "抓取曾SSL超时，重试成功"
+    },
+    "qinshi": {
+      "status": "na"
+    },
+    "fendu": {
+      "status": "na"
+    },
+    "tuxm": {
+      "status": "na"
+    }
+  },
+  "pushed_at": "2026-10-09T10:16:48.544748+08:00"
+}
