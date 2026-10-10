@@ -1,44 +1,44 @@
 {
   "city": "北京",
-  "date": "2026-10-09",
-  "pollen_concentration": 124.6,
+  "date": "2026-10-10",
+  "pollen_concentration": 95.0,
   "concentration_unit": "粒/m³",
-  "level": "极高",
+  "level": "很高",
   "categories": {
     "tree": "低",
     "grass": "高",
-    "weed": "极高"
+    "weed": "很高"
   },
   "active_species": 15,
   "main_allergens": [
     {
       "name": "艾蒿",
-      "peak": 80.3,
-      "level": "极高"
+      "peak": 47.0,
+      "level": "很高"
     },
     {
       "name": "三齿蒿",
-      "peak": 68.0,
-      "level": "极高"
+      "peak": 39.8,
+      "level": "很高"
     },
     {
       "name": "墙草",
-      "peak": 49.7,
-      "level": "很高"
+      "peak": 29.1,
+      "level": "高"
     },
     {
       "name": "直立墙草",
-      "peak": 46.0,
-      "level": "很高"
+      "peak": 27.0,
+      "level": "高"
     },
     {
       "name": "异株荨麻",
-      "peak": 40.3,
-      "level": "很高"
+      "peak": 23.6,
+      "level": "高"
     }
   ],
-  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
-  "summary": "北京今日花粉浓度124.6粒/m³（极高），以艾蒿、三齿蒿等蒿属杂草为主，敏感人群避免户外活动。",
+  "advice": "预计出现明显症状，中重度过敏者减少外出，关好门窗",
+  "summary": "北京花粉浓度很高(95.0粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,19 +48,9 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 124.6,
-      "quality": "高",
-      "note": "抓取曾SSL超时，重试成功"
-    },
-    "qinshi": {
-      "status": "na"
-    },
-    "fendu": {
-      "status": "na"
-    },
-    "tuxm": {
-      "status": "na"
+      "concentration": 95.0,
+      "issue": null
     }
   },
-  "pushed_at": "2026-10-09T10:16:48.544748+08:00"
+  "pushed_at": "2026-10-10T10:12:08.189519+08:00"
 }
