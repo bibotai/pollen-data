@@ -1,44 +1,44 @@
 {
   "city": "西安",
-  "date": "2026-10-10",
-  "pollen_concentration": 157.5,
+  "date": "2026-10-11",
+  "pollen_concentration": 252.5,
   "concentration_unit": "粒/m³",
-  "level": "很高",
+  "level": "极高",
   "categories": {
     "tree": "低",
-    "grass": "高",
-    "weed": "很高"
+    "grass": "很高",
+    "weed": "极高"
   },
   "active_species": 16,
   "main_allergens": [
     {
       "name": "艾蒿",
-      "peak": 49.4,
-      "level": "很高"
+      "peak": 105.0,
+      "level": "极高"
     },
     {
       "name": "三齿蒿",
-      "peak": 43.1,
-      "level": "很高"
-    },
-    {
-      "name": "禾草(混合)",
-      "peak": 37.4,
-      "level": "高"
+      "peak": 90.3,
+      "level": "极高"
     },
     {
       "name": "墙草",
-      "peak": 35.5,
-      "level": "很高"
+      "peak": 74.9,
+      "level": "极高"
     },
     {
-      "name": "鸭茅",
-      "peak": 33.0,
-      "level": "高"
+      "name": "直立墙草",
+      "peak": 69.3,
+      "level": "极高"
+    },
+    {
+      "name": "禾草(混合)",
+      "peak": 67.7,
+      "level": "很高"
     }
   ],
-  "advice": "预计出现明显症状，中重度过敏者减少外出，关好门窗",
-  "summary": "西安花粉浓度很高(157.5粒/m³)",
+  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
+  "summary": "西安花粉浓度极高(252.5粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,9 +48,9 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 157.5,
+      "concentration": 252.5,
       "issue": null
     }
   },
-  "pushed_at": "2026-10-10T10:12:14.136280+08:00"
+  "pushed_at": "2026-10-11T10:11:26.088119+08:00"
 }
