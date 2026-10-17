@@ -1,7 +1,7 @@
 {
   "city": "西安",
-  "date": "2026-10-16",
-  "pollen_concentration": 164.1,
+  "date": "2026-10-17",
+  "pollen_concentration": 112.4,
   "concentration_unit": "粒/m³",
   "level": "极高",
   "categories": {
@@ -13,32 +13,32 @@
   "main_allergens": [
     {
       "name": "艾蒿",
-      "peak": 58.9,
+      "peak": 52.2,
       "level": "极高"
     },
     {
       "name": "三齿蒿",
-      "peak": 48.9,
+      "peak": 43.3,
       "level": "很高"
     },
     {
       "name": "墙草",
-      "peak": 41.4,
+      "peak": 36.6,
       "level": "很高"
     },
     {
       "name": "直立墙草",
-      "peak": 38.3,
+      "peak": 33.9,
       "level": "很高"
     },
     {
-      "name": "禾草(混合)",
-      "peak": 38.0,
+      "name": "猪毛菜",
+      "peak": 28.9,
       "level": "高"
     }
   ],
   "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
-  "summary": "西安花粉浓度极高(164.1粒/m³)",
+  "summary": "西安花粉浓度极高(112.4粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,9 +48,9 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 164.1,
+      "concentration": 112.4,
       "issue": null
     }
   },
-  "pushed_at": "2026-10-16T10:12:28.983374+08:00"
+  "pushed_at": "2026-10-17T10:14:55.363011+08:00"
 }
