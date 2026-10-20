@@ -1,44 +1,44 @@
 {
   "city": "北京",
-  "date": "2026-10-19",
-  "pollen_concentration": 60.2,
+  "date": "2026-10-20",
+  "pollen_concentration": 58.6,
   "concentration_unit": "粒/m³",
-  "level": "高",
+  "level": "中",
   "categories": {
     "tree": "低",
     "grass": "中",
-    "weed": "高"
+    "weed": "中"
   },
   "active_species": 15,
   "main_allergens": [
     {
-      "name": "艾蒿",
-      "peak": 18.8,
-      "level": "高"
-    },
-    {
       "name": "禾草(混合)",
-      "peak": 17.9,
+      "peak": 17.7,
       "level": "中"
     },
     {
       "name": "多年生黑麦草",
-      "peak": 17.4,
+      "peak": 17.1,
       "level": "中"
     },
     {
       "name": "鸭茅",
-      "peak": 16.0,
+      "peak": 15.8,
       "level": "中"
     },
     {
-      "name": "三齿蒿",
-      "peak": 15.9,
-      "level": "高"
+      "name": "梯牧草",
+      "peak": 15.6,
+      "level": "中"
+    },
+    {
+      "name": "艾蒿",
+      "peak": 14.8,
+      "level": "中"
     }
   ],
-  "advice": "可能出现广泛症状，敏感人群外出佩戴口罩，减少户外停留",
-  "summary": "北京花粉浓度高(60.2粒/m³)",
+  "advice": "中等症状风险，敏感人群适当防护",
+  "summary": "北京花粉浓度中(58.6粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,9 +48,24 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 60.2,
+      "concentration": 58.6,
       "issue": null
+    },
+    "qinshi": {
+      "status": "skipped",
+      "concentration": null,
+      "issue": "P1 成功未抓取"
+    },
+    "fendu": {
+      "status": "skipped",
+      "concentration": null,
+      "issue": "P1 成功未抓取"
+    },
+    "tuxm": {
+      "status": "skipped",
+      "concentration": null,
+      "issue": "P1 成功未抓取"
     }
   },
-  "pushed_at": "2026-10-19T10:11:52.556851+08:00"
+  "pushed_at": "2026-10-20T10:17:18.927245+08:00"
 }
