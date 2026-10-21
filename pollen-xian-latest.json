@@ -1,44 +1,44 @@
 {
   "city": "西安",
-  "date": "2026-10-20",
-  "pollen_concentration": 89.6,
+  "date": "2026-10-21",
+  "pollen_concentration": 127.2,
   "concentration_unit": "粒/m³",
-  "level": "高",
+  "level": "极高",
   "categories": {
     "tree": "低",
     "grass": "高",
-    "weed": "高"
+    "weed": "极高"
   },
   "active_species": 16,
   "main_allergens": [
     {
-      "name": "禾草(混合)",
-      "peak": 28.3,
-      "level": "高"
-    },
-    {
       "name": "艾蒿",
-      "peak": 26.5,
-      "level": "高"
-    },
-    {
-      "name": "鸭茅",
-      "peak": 25.0,
-      "level": "高"
-    },
-    {
-      "name": "多年生黑麦草",
-      "peak": 24.0,
-      "level": "高"
+      "peak": 50.0,
+      "level": "极高"
     },
     {
       "name": "三齿蒿",
-      "peak": 22.8,
+      "peak": 42.9,
+      "level": "很高"
+    },
+    {
+      "name": "墙草",
+      "peak": 35.7,
+      "level": "很高"
+    },
+    {
+      "name": "禾草(混合)",
+      "peak": 33.7,
       "level": "高"
+    },
+    {
+      "name": "直立墙草",
+      "peak": 33.1,
+      "level": "很高"
     }
   ],
-  "advice": "可能出现广泛症状，敏感人群外出佩戴口罩，减少户外停留",
-  "summary": "西安花粉浓度高(89.6粒/m³)",
+  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
+  "summary": "西安花粉浓度极高(127.2粒/m³)，杂草花粉(艾蒿50.0)主导，过敏人群避免户外活动",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,24 +48,24 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 89.6,
+      "concentration": 127.2,
       "issue": null
     },
     "qinshi": {
-      "status": "skipped",
+      "status": "FAIL",
       "concentration": null,
-      "issue": "P1 成功未抓取"
+      "issue": "小红书登录墙(API 406)，无法获取"
     },
     "fendu": {
-      "status": "skipped",
+      "status": "FAIL",
       "concentration": null,
-      "issue": "P1 成功未抓取"
+      "issue": "小红书登录墙(API 406)，无法获取"
     },
     "tuxm": {
-      "status": "skipped",
+      "status": "FAIL",
       "concentration": null,
-      "issue": "P1 成功未抓取"
+      "issue": "小红书登录墙(API 406)，无法获取"
     }
   },
-  "pushed_at": "2026-10-20T10:17:25.089445+08:00"
+  "pushed_at": "2026-10-21T10:17:16.173010+08:00"
 }
