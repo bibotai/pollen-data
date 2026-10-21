@@ -1,71 +1,46 @@
 {
   "city": "北京",
-  "date": "2026-10-20",
-  "pollen_concentration": 58.6,
+  "date": "2026-10-21",
+  "pollen_concentration": 0.0,
   "concentration_unit": "粒/m³",
-  "level": "中",
+  "level": "低",
   "categories": {
     "tree": "低",
-    "grass": "中",
-    "weed": "中"
+    "grass": "低",
+    "weed": "低"
   },
-  "active_species": 15,
-  "main_allergens": [
-    {
-      "name": "禾草(混合)",
-      "peak": 17.7,
-      "level": "中"
-    },
-    {
-      "name": "多年生黑麦草",
-      "peak": 17.1,
-      "level": "中"
-    },
-    {
-      "name": "鸭茅",
-      "peak": 15.8,
-      "level": "中"
-    },
-    {
-      "name": "梯牧草",
-      "peak": 15.6,
-      "level": "中"
-    },
-    {
-      "name": "艾蒿",
-      "peak": 14.8,
-      "level": "中"
-    }
-  ],
-  "advice": "中等症状风险，敏感人群适当防护",
-  "summary": "北京花粉浓度中(58.6粒/m³)",
+  "active_species": 0,
+  "main_allergens": [],
+  "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
+  "summary": "北京花粉浓度低(0粒/m³，0活跃物种)，2026年秋季花粉期已结束；北京市气象服务中心已于10月16日停更花粉预报",
   "source": {
     "name": "pollencount.org",
-    "platform": "网页API",
+    "platform": "网页API+主站",
     "url": "https://pollencount.org/pollen/zh/china/beijing/",
-    "original_unit": "粒/m³"
+    "original_unit": "粒/m³",
+    "note": "API 40物种全零，主站确认'今日低/0活跃物种'"
   },
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 58.6,
-      "issue": null
+      "concentration": 0.0,
+      "issue": "源端预测北京花粉期结束，全物种归零；与北京市气象服务中心10/16停更公告一致"
     },
     "qinshi": {
-      "status": "skipped",
+      "status": "FAIL",
       "concentration": null,
-      "issue": "P1 成功未抓取"
+      "issue": "小红书登录墙(API 406)，无法获取"
     },
     "fendu": {
-      "status": "skipped",
+      "status": "FAIL",
       "concentration": null,
-      "issue": "P1 成功未抓取"
+      "issue": "小红书登录墙(API 406)，无法获取"
     },
     "tuxm": {
-      "status": "skipped",
+      "status": "FAIL",
       "concentration": null,
-      "issue": "P1 成功未抓取"
+      "issue": "小红书登录墙(API 406)，无法获取"
     }
   },
-  "pushed_at": "2026-10-20T10:17:18.927245+08:00"
+  "pushed_at": "2026-10-21T10:17:16.173010+08:00"
 }
