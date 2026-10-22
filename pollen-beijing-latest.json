@@ -1,6 +1,6 @@
 {
   "city": "北京",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "pollen_concentration": 0.0,
   "concentration_unit": "粒/m³",
   "level": "低",
@@ -12,35 +12,35 @@
   "active_species": 0,
   "main_allergens": [],
   "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
-  "summary": "北京花粉浓度低(0粒/m³，0活跃物种)，2026年秋季花粉期已结束；北京市气象服务中心已于10月16日停更花粉预报",
+  "summary": "北京花粉浓度低(0粒/m³，0活跃物种)，秋季花粉期已结束(10/19起连续3日归零)；与北京市气象服务中心10月16日停更花粉预报一致",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API+主站",
     "url": "https://pollencount.org/pollen/zh/china/beijing/",
     "original_unit": "粒/m³",
-    "note": "API 40物种全零，主站确认'今日低/0活跃物种'"
+    "note": "API 40物种连续3日全零(10/19峰值17.7有15活跃物种→10/20断崖归零)，秋季花粉期结束"
   },
   "data_quality": {
     "pollencount": {
       "status": "OK",
       "concentration": 0.0,
-      "issue": "源端预测北京花粉期结束，全物种归零；与北京市气象服务中心10/16停更公告一致"
+      "issue": "源端预测北京花粉期结束，全物种归零；与北京市气象服务中心10/16停更一致"
     },
     "qinshi": {
       "status": "FAIL",
       "concentration": null,
-      "issue": "小红书登录墙(API 406)，无法获取"
+      "issue": "小红书登录墙，无法获取"
     },
     "fendu": {
       "status": "FAIL",
       "concentration": null,
-      "issue": "小红书登录墙(API 406)，无法获取"
+      "issue": "小红书登录墙，无法获取"
     },
     "tuxm": {
       "status": "FAIL",
       "concentration": null,
-      "issue": "小红书登录墙(API 406)，无法获取"
+      "issue": "小红书登录墙，无法获取"
     }
   },
-  "pushed_at": "2026-10-21T10:17:16.173010+08:00"
+  "pushed_at": "2026-10-22T10:15:26.034365+08:00"
 }
