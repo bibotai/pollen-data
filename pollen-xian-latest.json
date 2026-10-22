@@ -1,44 +1,44 @@
 {
   "city": "西安",
-  "date": "2026-10-21",
-  "pollen_concentration": 127.2,
+  "date": "2026-10-22",
+  "pollen_concentration": 132.0,
   "concentration_unit": "粒/m³",
-  "level": "极高",
+  "level": "很高",
   "categories": {
     "tree": "低",
     "grass": "高",
-    "weed": "极高"
+    "weed": "很高"
   },
   "active_species": 16,
   "main_allergens": [
     {
       "name": "艾蒿",
-      "peak": 50.0,
-      "level": "极高"
-    },
-    {
-      "name": "三齿蒿",
-      "peak": 42.9,
+      "peak": 38.6,
       "level": "很高"
     },
     {
-      "name": "墙草",
-      "peak": 35.7,
+      "name": "三齿蒿",
+      "peak": 34.4,
       "level": "很高"
     },
     {
       "name": "禾草(混合)",
-      "peak": 33.7,
+      "peak": 32.6,
       "level": "高"
     },
     {
-      "name": "直立墙草",
-      "peak": 33.1,
-      "level": "很高"
+      "name": "鸭茅",
+      "peak": 28.8,
+      "level": "高"
+    },
+    {
+      "name": "墙草",
+      "peak": 27.9,
+      "level": "高"
     }
   ],
-  "advice": "症状可能性和严重程度极高，避免户外活动，提前服用抗过敏药，必要时就医",
-  "summary": "西安花粉浓度极高(127.2粒/m³)，杂草花粉(艾蒿50.0)主导，过敏人群避免户外活动",
+  "advice": "预计出现明显症状，中重度过敏者减少外出、关好门窗，外出佩戴N95口罩",
+  "summary": "西安花粉浓度很高(132.0粒/m³)，艾蒿38.6主导、杂草+禾草共同活跃，较昨日极高(127.2)小幅回落",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -48,24 +48,24 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 127.2,
+      "concentration": 132.0,
       "issue": null
     },
     "qinshi": {
       "status": "FAIL",
       "concentration": null,
-      "issue": "小红书登录墙(API 406)，无法获取"
+      "issue": "小红书登录墙，无法获取"
     },
     "fendu": {
       "status": "FAIL",
       "concentration": null,
-      "issue": "小红书登录墙(API 406)，无法获取"
+      "issue": "小红书登录墙，无法获取"
     },
     "tuxm": {
       "status": "FAIL",
       "concentration": null,
-      "issue": "小红书登录墙(API 406)，无法获取"
+      "issue": "小红书登录墙，无法获取"
     }
   },
-  "pushed_at": "2026-10-21T10:17:16.173010+08:00"
+  "pushed_at": "2026-10-22T10:15:26.034365+08:00"
 }
