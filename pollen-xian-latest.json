@@ -1,71 +1,46 @@
 {
   "city": "西安",
-  "date": "2026-10-22",
-  "pollen_concentration": 132.0,
+  "date": "2026-10-23",
+  "pollen_concentration": 0.0,
   "concentration_unit": "粒/m³",
-  "level": "很高",
+  "level": "低",
   "categories": {
     "tree": "低",
-    "grass": "高",
-    "weed": "很高"
+    "grass": "低",
+    "weed": "低"
   },
-  "active_species": 16,
-  "main_allergens": [
-    {
-      "name": "艾蒿",
-      "peak": 38.6,
-      "level": "很高"
-    },
-    {
-      "name": "三齿蒿",
-      "peak": 34.4,
-      "level": "很高"
-    },
-    {
-      "name": "禾草(混合)",
-      "peak": 32.6,
-      "level": "高"
-    },
-    {
-      "name": "鸭茅",
-      "peak": 28.8,
-      "level": "高"
-    },
-    {
-      "name": "墙草",
-      "peak": 27.9,
-      "level": "高"
-    }
-  ],
-  "advice": "预计出现明显症状，中重度过敏者减少外出、关好门窗，外出佩戴N95口罩",
-  "summary": "西安花粉浓度很高(132.0粒/m³)，艾蒿38.6主导、杂草+禾草共同活跃，较昨日极高(127.2)小幅回落",
+  "active_species": 0,
+  "main_allergens": [],
+  "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
+  "summary": "西安花粉浓度低(0粒/m³，0活跃物种)，模型新预报将秋季花粉期判定结束(旧预报10/22为132.0很高/16物种→新预报10/22起全零)；主站今日指数=低",
   "source": {
     "name": "pollencount.org",
-    "platform": "网页API",
+    "platform": "网页API+主站",
     "url": "https://pollencount.org/pollen/zh/china/xian/",
-    "original_unit": "粒/m³"
+    "original_unit": "粒/m³",
+    "note": "模型修订验证：date=2026-10-21窗口西安16物种活跃(峰51.3，即昨日132.0来源)，date=2026-10-22最新预报全零；主站4天预报全低，判断季节结束"
   },
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 132.0,
-      "issue": null
+      "concentration": 0.0,
+      "issue": "源端模型修订，新预报(10/22起)判定西安秋季花粉期结束，全物种归零"
     },
     "qinshi": {
-      "status": "FAIL",
+      "status": "SKIP",
       "concentration": null,
-      "issue": "小红书登录墙，无法获取"
+      "issue": "P1 pollencount 数据有效，未抓取小红书源"
     },
     "fendu": {
-      "status": "FAIL",
+      "status": "SKIP",
       "concentration": null,
-      "issue": "小红书登录墙，无法获取"
+      "issue": "P1 pollencount 数据有效，未抓取小红书源"
     },
     "tuxm": {
-      "status": "FAIL",
+      "status": "SKIP",
       "concentration": null,
-      "issue": "小红书登录墙，无法获取"
+      "issue": "P1 pollencount 数据有效，未抓取小红书源"
     }
   },
-  "pushed_at": "2026-10-22T10:15:26.034365+08:00"
+  "pushed_at": "2026-10-23T10:16:19.036627+08:00"
 }
