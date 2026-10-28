@@ -1,6 +1,6 @@
 {
   "city": "北京",
-  "date": "2026-10-26",
+  "date": "2026-10-28",
   "pollen_concentration": 0.0,
   "concentration_unit": "粒/m³",
   "level": "低",
@@ -11,8 +11,8 @@
   },
   "active_species": 0,
   "main_allergens": [],
-  "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
-  "summary": "北京花粉浓度低(0.0粒/m³)",
+  "advice": "花粉浓度低，敏感人群症状风险小，可正常外出；早晚清洁面部鼻腔即可。",
+  "summary": "北京花粉浓度低（0.0 粒/m³），0 种活跃物种，秋季花粉季基本结束。",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -21,10 +21,11 @@
   },
   "data_quality": {
     "pollencount": {
-      "status": "OK",
+      "status": "ok",
       "concentration": 0.0,
-      "issue": null
+      "quality": "高",
+      "note": "API与主站一致：低/0活跃"
     }
   },
-  "pushed_at": "2026-10-26T10:13:58.799433+08:00"
+  "pushed_at": "2026-10-28T02:14:48.266927Z"
 }
