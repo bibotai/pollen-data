@@ -1,7 +1,7 @@
 {
   "city": "西安",
-  "date": "2026-10-28",
-  "pollen_concentration": 113.3,
+  "date": "2026-10-29",
+  "pollen_concentration": 93.4,
   "concentration_unit": "粒/m³",
   "level": "很高",
   "categories": {
@@ -12,23 +12,33 @@
   "active_species": 16,
   "main_allergens": [
     {
-      "name": "艾蒿",
-      "peak": 34.2,
-      "level": "很高"
-    },
-    {
       "name": "禾草(混合)",
-      "peak": 30.4,
+      "peak": 28.6,
       "level": "高"
     },
     {
-      "name": "三齿蒿",
-      "peak": 30.3,
-      "level": "很高"
+      "name": "鸭茅",
+      "peak": 25.2,
+      "level": "高"
+    },
+    {
+      "name": "多年生黑麦草",
+      "peak": 24.1,
+      "level": "高"
+    },
+    {
+      "name": "梯牧草",
+      "peak": 20.1,
+      "level": "高"
+    },
+    {
+      "name": "狗牙根",
+      "peak": 20.0,
+      "level": "高"
     }
   ],
-  "advice": "花粉浓度很高，敏感人群尽量减少外出，外出佩戴N95口罩；室内关窗并使用空气净化器。",
-  "summary": "西安花粉浓度很高（113.3 粒/m³），蒿属+禾草仍活跃，敏感人群需防护。",
+  "advice": "预计出现明显症状，中重度过敏者减少外出，关好门窗",
+  "summary": "西安花粉浓度很高（93.4 粒/m³），16 种活跃物种，敏感人群注意防护。",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -37,11 +47,20 @@
   },
   "data_quality": {
     "pollencount": {
-      "status": "ok",
-      "concentration": 113.3,
+      "status": "OK",
+      "concentration": 93.4,
       "quality": "高",
-      "note": "主站显示今日为高，脚本按当日峰值计算为很高"
+      "note": "API 正常，数据生成于 2026-10-28（1天滞后）"
+    },
+    "qinshi": {
+      "status": "未使用"
+    },
+    "fendu": {
+      "status": "未使用"
+    },
+    "tuxm": {
+      "status": "未使用"
     }
   },
-  "pushed_at": "2026-10-28T02:14:48.266927Z"
+  "pushed_at": "2026-10-29T10:16:38.770922+08:00"
 }
