@@ -1,6 +1,6 @@
 {
   "city": "北京",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pollen_concentration": 0.0,
   "concentration_unit": "粒/m³",
   "level": "低",
@@ -24,7 +24,7 @@
       "status": "OK",
       "concentration": 0.0,
       "quality": "高",
-      "note": "API 正常，数据生成于 2026-10-28（1天滞后）"
+      "note": "API 正常，latest 预报 10-29 08:00~11-02 08:00(BJT) 含今日；40 物种 96h 全为 0，秋季花粉季结束"
     },
     "qinshi": {
       "status": "未使用"
@@ -36,5 +36,5 @@
       "status": "未使用"
     }
   },
-  "pushed_at": "2026-10-29T10:16:34.278709+08:00"
+  "pushed_at": "2026-10-30T10:12:58.278463+08:00"
 }
