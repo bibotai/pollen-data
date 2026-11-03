@@ -1,6 +1,6 @@
 {
   "city": "北京",
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "pollen_concentration": 0.0,
   "concentration_unit": "粒/m³",
   "level": "低",
@@ -26,5 +26,5 @@
       "issue": null
     }
   },
-  "pushed_at": "2026-11-02T10:12:11.480030+08:00"
+  "pushed_at": "2026-11-03T10:18:11.843088+08:00"
 }
