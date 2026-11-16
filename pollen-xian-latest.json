@@ -1,7 +1,7 @@
 {
   "city": "西安",
-  "date": "2026-11-15",
-  "pollen_concentration": 2.3,
+  "date": "2026-11-16",
+  "pollen_concentration": 1.8,
   "concentration_unit": "粒/m³",
   "level": "低",
   "categories": {
@@ -9,26 +9,16 @@
     "grass": "低",
     "weed": "低"
   },
-  "active_species": 2,
+  "active_species": 1,
   "main_allergens": [
     {
       "name": "三裂叶豚草",
-      "peak": 0.9,
-      "level": "低"
-    },
-    {
-      "name": "欧洲榛",
       "peak": 0.6,
-      "level": "低"
-    },
-    {
-      "name": "银胶菊",
-      "peak": 0.5,
       "level": "低"
     }
   ],
   "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
-  "summary": "西安花粉浓度低(2.3粒/m³)，2种低水平活跃",
+  "summary": "西安花粉浓度低(1.8粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -38,24 +28,9 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 2.3,
-      "issue": "数据生成 2026-11-14(滞后1天)"
-    },
-    "qinshi": {
-      "status": "未使用",
-      "concentration": null,
-      "issue": "P1成功未回落"
-    },
-    "fendu": {
-      "status": "未使用",
-      "concentration": null,
-      "issue": "P1成功未回落"
-    },
-    "tuxm": {
-      "status": "未使用",
-      "concentration": null,
-      "issue": "P1成功未回落"
+      "concentration": 1.8,
+      "issue": null
     }
   },
-  "pushed_at": "2026-11-15T10:13:12.652340+08:00"
+  "pushed_at": "2026-11-16T10:10:40.877843+08:00"
 }
