@@ -1,7 +1,7 @@
 {
   "city": "西安",
-  "date": "2026-11-19",
-  "pollen_concentration": 2.3,
+  "date": "2026-11-20",
+  "pollen_concentration": 2.5,
   "concentration_unit": "粒/m³",
   "level": "低",
   "categories": {
@@ -9,7 +9,7 @@
     "grass": "低",
     "weed": "低"
   },
-  "active_species": 2,
+  "active_species": 3,
   "main_allergens": [
     {
       "name": "三裂叶豚草",
@@ -20,10 +20,15 @@
       "name": "欧洲榛",
       "peak": 0.7,
       "level": "低"
+    },
+    {
+      "name": "地中海柏木",
+      "peak": 0.6,
+      "level": "低"
     }
   ],
   "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
-  "summary": "西安花粉浓度低(2.3粒/m³)",
+  "summary": "西安花粉浓度低(2.5粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -33,9 +38,9 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 2.3,
+      "concentration": 2.5,
       "issue": null
     }
   },
-  "pushed_at": "2026-11-19T10:14:54.346367+08:00"
+  "pushed_at": "2026-11-20T10:10:30.597522+08:00"
 }
