@@ -1,7 +1,6 @@
 {
   "city": "北京",
-  "date": "2026-11-25",
-  "data_generated": "2026-11-24",
+  "date": "2026-11-26",
   "pollen_concentration": 0.5,
   "concentration_unit": "粒/m³",
   "level": "低",
@@ -12,8 +11,8 @@
   },
   "active_species": 0,
   "main_allergens": [],
-  "advice": "花粉浓度低，过敏症状基本不会出现，可正常户外活动。",
-  "summary": "北京花粉浓度低，总浓度0.5粒/m³，无明显活跃致敏物种",
+  "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
+  "summary": "北京花粉浓度低(0.5粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -24,23 +23,8 @@
     "pollencount": {
       "status": "OK",
       "concentration": 0.5,
-      "quality": "高"
-    },
-    "qinshi": {
-      "status": "SKIPPED",
-      "concentration": null,
-      "quality": "未使用(P1成功)"
-    },
-    "fendu": {
-      "status": "SKIPPED",
-      "concentration": null,
-      "quality": "未使用(P1成功)"
-    },
-    "tuxm": {
-      "status": "SKIPPED",
-      "concentration": null,
-      "quality": "未使用(P1成功)"
+      "issue": null
     }
   },
-  "pushed_at": "2026-11-25T10:11:42.001255+08:00"
+  "pushed_at": "2026-11-26T10:10:55.720725+08:00"
 }
