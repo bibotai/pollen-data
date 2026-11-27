@@ -1,7 +1,7 @@
 {
   "city": "西安",
-  "date": "2026-11-26",
-  "pollen_concentration": 2.7,
+  "date": "2026-11-27",
+  "pollen_concentration": 3.1,
   "concentration_unit": "粒/m³",
   "level": "低",
   "categories": {
@@ -12,28 +12,28 @@
   "active_species": 4,
   "main_allergens": [
     {
+      "name": "欧洲榛",
+      "peak": 1.0,
+      "level": "低"
+    },
+    {
       "name": "地中海柏木",
       "peak": 1.0,
       "level": "低"
     },
     {
-      "name": "欧洲榛",
-      "peak": 0.9,
-      "level": "低"
-    },
-    {
       "name": "三裂叶豚草",
-      "peak": 0.9,
+      "peak": 0.8,
       "level": "低"
     },
     {
       "name": "银胶菊",
-      "peak": 0.7,
+      "peak": 0.6,
       "level": "低"
     }
   ],
   "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
-  "summary": "西安花粉浓度低(2.7粒/m³)",
+  "summary": "西安花粉浓度低（3.1粒/m³），秋季花粉季收尾，无明显致敏风险",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -43,9 +43,21 @@
   "data_quality": {
     "pollencount": {
       "status": "OK",
-      "concentration": 2.7,
+      "concentration": 3.1,
       "issue": null
+    },
+    "qinshi": {
+      "status": "SKIP",
+      "reason": "P1成功未回落"
+    },
+    "fendu": {
+      "status": "SKIP",
+      "reason": "P1成功未回落"
+    },
+    "tuxm": {
+      "status": "SKIP",
+      "reason": "P1成功未回落"
     }
   },
-  "pushed_at": "2026-11-26T10:10:57.881547+08:00"
+  "pushed_at": "2026-11-27T10:12:34.440378+08:00"
 }
