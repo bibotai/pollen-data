@@ -1,6 +1,6 @@
 {
   "city": "北京",
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "pollen_concentration": 0.6,
   "concentration_unit": "粒/m³",
   "level": "低",
@@ -10,35 +10,9 @@
     "weed": "低"
   },
   "active_species": 0,
-  "main_allergens": [
-    {
-      "name": "地中海柏木",
-      "peak": 0.3,
-      "level": "低"
-    },
-    {
-      "name": "艾蒿",
-      "peak": 0.2,
-      "level": "低"
-    },
-    {
-      "name": "猪毛菜",
-      "peak": 0.1,
-      "level": "低"
-    },
-    {
-      "name": "墙草",
-      "peak": 0.1,
-      "level": "低"
-    },
-    {
-      "name": "藜",
-      "peak": 0.1,
-      "level": "低"
-    }
-  ],
+  "main_allergens": [],
   "advice": "花粉浓度低，症状不太可能出现，可正常户外活动",
-  "summary": "北京花粉浓度低（0.6粒/m³），秋季花粉季收尾，无明显致敏风险",
+  "summary": "北京花粉浓度低(0.6粒/m³)",
   "source": {
     "name": "pollencount.org",
     "platform": "网页API",
@@ -49,20 +23,24 @@
     "pollencount": {
       "status": "OK",
       "concentration": 0.6,
+      "unit": "粒/m³",
       "issue": null
     },
     "qinshi": {
       "status": "SKIP",
-      "reason": "P1成功未回落"
+      "concentration": null,
+      "issue": "P1正常未抓取"
     },
     "fendu": {
       "status": "SKIP",
-      "reason": "P1成功未回落"
+      "concentration": null,
+      "issue": "P1正常未抓取"
     },
     "tuxm": {
       "status": "SKIP",
-      "reason": "P1成功未回落"
+      "concentration": null,
+      "issue": "P1正常未抓取"
     }
   },
-  "pushed_at": "2026-11-27T10:12:30.280221+08:00"
+  "pushed_at": "2026-11-28T10:10:51.820380+08:00"
 }
